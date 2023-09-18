@@ -1,0 +1,20 @@
+body{    
+    margin: 0;
+}
+main{
+    margin: 0,5em;
+}
+table{
+      border: solid black 1px;
+}
+th{
+    font-size: 18px;
+    border:solid black 1px ;
+}
+td{
+    border:solid black 1px ;
+    font-size: 16px;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 5px;
+}  
