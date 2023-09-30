@@ -4,7 +4,8 @@ import style from './Header.module.css';
 const
   pages = [
     { href: '/', title: 'Home' },    
-    { href: '/users', title: 'Users' }
+    { href: '/users', title: 'Users' },
+    { href: '/calendar', title: 'Calendar' }
   ];
 export default function Header() {
     return <header className={style.header}>

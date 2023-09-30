@@ -16,3 +16,13 @@ td{
     font-size: 16px;
     background-color: burlywood;    
 }  
+.Date{
+    width:100px;
+    border:solid black 1px ;      
+}
+ 
+#test td.selected {
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+}

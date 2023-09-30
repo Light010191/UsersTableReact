@@ -13,7 +13,7 @@ export default function Users({ propsUsers }) {
         <th>website</th>
         <th>company.name</th>        
       </tr>
-      {propsUsers.map(user => <OneUser user={user} />)}            
+      {propsUsers.map((user,key) => <OneUser user={user} key={key} />)}            
     </table> 
   </>
 }
