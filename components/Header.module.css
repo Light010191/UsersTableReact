@@ -1,0 +1,11 @@
+.header {
+    background-color: aquamarine;
+    padding: 0.5em;
+}
+.header ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: red;    
+}

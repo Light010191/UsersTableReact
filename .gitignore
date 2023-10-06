@@ -9,7 +9,7 @@
 /coverage
 
 # next.js
-/.next/
+/.next/next-ts-sass/package-lock.json
 /out/
 
 # production
@@ -28,6 +28,7 @@ yarn-error.log*
 .env*.local
 
 # vercel
+next-ts-sass/package-lock.json
 .vercel
 
 # typescript
