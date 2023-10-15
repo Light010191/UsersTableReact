@@ -12,7 +12,8 @@
 /.next/next-ts-sass/package-lock.json
 /out/
 next.config.js
-
+.next
+next
 # production
 /build
 
