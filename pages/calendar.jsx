@@ -1,4 +1,4 @@
-import InputDate from "../components/jshp/InputDate";
+import InputDate from "../components/calendar/InputDate";
 import { useState } from "react";
 
 export default function CalendarPage(){

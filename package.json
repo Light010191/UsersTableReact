@@ -6,17 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serv": "json-server --watch db.json --port 3333 --delay 2000"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-hot-toast": "^2.4.1",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
-    "@types/react-dom": "latest"
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
   }
 }

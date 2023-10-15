@@ -3,12 +3,12 @@ import Users from '../components/jshp/Users';
 
 export default function AboutPage({propsUsers}) {
   const 
-    [listUsers, setListUsers] = useState(propsUsers);
-  return <Users propsUsers={listUsers} result={res => setListUsers(res)}/>;
+     [listUsers, setListUsers] = useState(propsUsers)
+  return <Users propsUsers={propsUsers} result={res => setListUsers(res)}/>;
 }
 
 export async function getStaticProps() {
   const propsUsers = 
-    await (await fetch('https://jsonplaceholder.typicode.com/users')).json();
+    await (await fetch('http://localhost:3333/users')).json();
   return { props: { propsUsers } }
 }
